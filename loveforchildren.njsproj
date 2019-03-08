@@ -36,6 +36,7 @@
     <Content Include="public\manifest.json" />
     <Content Include="README.md" />
     <Content Include="src\App.css" />
+    <Content Include="src\images\header-bg.jpg" />
     <Content Include="src\index.css" />
     <Content Include="src\logo.svg" />
   </ItemGroup>
@@ -52,6 +53,9 @@
     <Compile Include="src\Components\AppBar.js" />
     <Compile Include="src\Components\Drawer.js" />
     <Compile Include="src\Components\Grid.js" />
+    <Compile Include="src\Components\Jumbotron.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="src\Components\Layout.js" />
     <Compile Include="src\index.js" />
     <Compile Include="src\Pages\Home.js" />

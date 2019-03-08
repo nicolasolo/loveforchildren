@@ -1,18 +1,25 @@
 ﻿import React, { Component } from 'react';
+import { Router } from 'react-router';
 import AppBar from './AppBar';
 import Grid from './Grid';
+import { Container, } from 'reactstrap';
+import Col from 'react-bootstrap/Col';
 
-export class Layout extends Component {
+class Layout extends Component {
     displayName = Layout.name
 
     render() {
         return (
-            <Grid >
+            
+            <Container fluid >
+                <Col>
                 <AppBar />
 
-                {this.props.children}
-
-            </Grid>
+                    {this.props.children}
+                </Col>
+                </Container>
+           
         );
     }
 }
+export default Layout;
