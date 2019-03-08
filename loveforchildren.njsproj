@@ -29,13 +29,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="CustomProfile.pubxml" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
     <Content Include="public\manifest.json" />
     <Content Include="README.md" />
-    <Content Include="src\App.css" />
     <Content Include="src\images\header-bg.jpg" />
     <Content Include="src\index.css" />
     <Content Include="src\logo.svg" />
