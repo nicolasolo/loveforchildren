@@ -13,13 +13,14 @@ class App extends Component {
     render() {
         return (
             <Router>
+                <Layout>
                 <Container fluid>
                     <Col>
                         <Row>
                
 
 
-                                <h1>hello</h1>
+                               
 
                 <Route exact path='/' component={Home} />
 
@@ -30,14 +31,10 @@ class App extends Component {
                             
                         </Row>
                     </Col>
-                </Container>
+                    </Container>
+                </Layout>
             </Router>
         );
     }
 }
 export default App;
-
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);

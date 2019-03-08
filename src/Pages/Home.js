@@ -14,7 +14,7 @@ class Home extends Component {
 
                 <Jumbotron />
 
-                <h1>home</h1>
+               
 
 
             </Container>

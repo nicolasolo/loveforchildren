@@ -9,7 +9,7 @@ const Jumbo = (props) => {
     return (
 
         
-        <Image src={require('../images/header-bg.jpg')} />
+        <Image fluid src={require('../images/header-bg.jpg')} />
            
 
 
