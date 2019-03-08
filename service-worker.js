@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/loveforchildren/precache-manifest.6fcefbfbaeeb4ce87432bd7e070f5ec3.js"
+  "/loveforchildren/precache-manifest.37fd9f08167929a62244267ab2bc021c.js"
 );
 
 workbox.clientsClaim();

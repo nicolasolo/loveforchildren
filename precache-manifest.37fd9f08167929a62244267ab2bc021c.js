@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/loveforchildren/static/css/main.882771a6.chunk.css"
   },
   {
-    "revision": "d34e6bf388d3ffd67a224a9b4fe79e08",
+    "revision": "079d9d2fa373a8cf53367a96f2bd3896",
     "url": "/loveforchildren/index.html"
   }
 ];
