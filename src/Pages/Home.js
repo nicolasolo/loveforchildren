@@ -12,7 +12,7 @@ class Home extends Component {
 
             <Container>
                 <h1>hello</h1>
-                <Jumbotron />
+                
 
                
 
